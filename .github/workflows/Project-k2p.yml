@@ -12,7 +12,7 @@ on:
   #  - cron: 0 8 * * 5
 
 env:
-  REPO_URL: https://github.com/project-openwrt/openwrt
+  REPO_URL: https://github.com/immortalwrt/immortalwrt
   REPO_BRANCH: openwrt-18.06
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: Project-k2p.config
