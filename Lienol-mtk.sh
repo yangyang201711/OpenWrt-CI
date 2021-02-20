@@ -5,9 +5,6 @@ chmod 0755 package/lean/luci-app-frpc/root/etc/init.d/frp
 rm -rf package/lean/luci-app-unblockmusic
 svn co https://github.com/project-openwrt/openwrt/trunk/package/lean/luci-app-unblockmusic package/lean/luci-app-unblockmusic
 git clone https://github.com/8688Add/luci-app-adbyby-plus-special.git package/luci-app-adbyby-plus-ram_edition-special
-rm -rf package/lean/mt
-svn co https://github.com/coolsnowwolf/luci/trunk/modules package/modules
-svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/mt package/lean/mt
 
 #使用LEDE的ShadowSocksR Plus+出国软件 (源码自带passwall出国软件)
 svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/diy/luci-app-ssr-plus
