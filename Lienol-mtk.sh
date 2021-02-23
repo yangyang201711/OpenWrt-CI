@@ -21,6 +21,7 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2 package
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder package/diy/dnsforwarder
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray-plugin package/diy/v2ray-plugin
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan package/diy/trojan
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/kcptun package/diy/kcptun
 
 # 修改插件名字（修改名字后不知道会不会对插件功能有影响，自己多测试）
 #sed -i 's/"BaiduPCS Web"/"百度网盘"/g' package/lean/luci-app-baidupcs-web/luasrc/controller/baidupcs-web.lua
