@@ -10,6 +10,7 @@ git clone https://github.com/8688Add/luci-app-adbyby-plus-special.git package/lu
 svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/diy/luci-app-ssr-plus
 svn co https://github.com/fw876/helloworld/trunk/tcping package/diy/tcping
 svn co https://github.com/fw876/helloworld/trunk/xray-core package/diy/xray-core
+svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/diy/naiveproxy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev package/diy/shadowsocksr-libev
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/pdnsd-alt package/diy/pdnsd-alt
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks package/diy/microsocks
@@ -18,6 +19,8 @@ svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/simple-obfs packa
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/ipt2socks package/diy/ipt2socks
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/redsocks2 package/diy/redsocks2
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/dnsforwarder package/diy/dnsforwarder
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/v2ray-plugin package/diy/v2ray-plugin
+svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/trojan package/diy/trojan
 
 # 修改插件名字（修改名字后不知道会不会对插件功能有影响，自己多测试）
 #sed -i 's/"BaiduPCS Web"/"百度网盘"/g' package/lean/luci-app-baidupcs-web/luasrc/controller/baidupcs-web.lua
