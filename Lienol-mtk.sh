@@ -10,6 +10,7 @@ git clone https://github.com/8688Add/luci-app-adbyby-plus-special.git package/lu
 svn co https://github.com/fw876/helloworld/trunk/luci-app-ssr-plus package/diy/luci-app-ssr-plus
 svn co https://github.com/fw876/helloworld/trunk/tcping package/diy/tcping
 svn co https://github.com/fw876/helloworld/trunk/xray-core package/diy/xray-core
+svn co https://github.com/fw876/helloworld/trunk/xray-plugin package/diy/xray-plugin
 svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/diy/naiveproxy
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev package/diy/shadowsocksr-libev
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/pdnsd-alt package/diy/pdnsd-alt
