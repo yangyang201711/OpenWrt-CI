@@ -12,6 +12,7 @@ svn co https://github.com/fw876/helloworld/trunk/tcping package/diy/tcping
 svn co https://github.com/fw876/helloworld/trunk/xray-core package/diy/xray-core
 svn co https://github.com/fw876/helloworld/trunk/xray-plugin package/diy/xray-plugin
 svn co https://github.com/fw876/helloworld/trunk/naiveproxy package/diy/naiveproxy
+svn co https://github.com/fw876/helloworld/trunk/shadowsocks-rust package/diy/shadowsocks-rust
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/shadowsocksr-libev package/diy/shadowsocksr-libev
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/pdnsd-alt package/diy/pdnsd-alt
 svn co https://github.com/coolsnowwolf/lede/trunk/package/lean/microsocks package/diy/microsocks
