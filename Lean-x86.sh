@@ -2,7 +2,7 @@
 sed -i "s/OpenWrt /BGG build $(TZ=UTC-8 date "+%Y.%m.%d") @ YY-OpenWrt /g" package/lean/default-settings/files/zzz-default-settings
 
 #使用源码自带ShadowSocksR Plus+出国软件
-sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
+#sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
 #sed -i 's/KERNEL_PATCHVER:=5.4/KERNEL_PATCHVER:=4.19/g' target/linux/x86/Makefile
 #sed -i 's/KERNEL_TESTING_PATCHVER:=5.4/KERNEL_TESTING_PATCHVER:=4.19/g' target/linux/x86/Makefile
@@ -10,31 +10,31 @@ sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 #git clone https://github.com/tty228/luci-app-serverchan.git package/luci-app-serverchan
 rm -rf package/lean/luci-app-dockerman
 git clone https://github.com/lisaac/luci-app-dockerman.git package/openwrt-packages/luci-app-dockerman
-git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
-git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
+#git clone https://github.com/jerrykuku/luci-app-vssr.git package/luci-app-vssr
+#git clone https://github.com/jerrykuku/lua-maxminddb.git package/lua-maxminddb
 #git clone https://github.com/Mattraks/helloworld.git package/lean/luci-app-ssr-plus
 #rm -rf package/lean/xray
 #svn co https://github.com/xiaorouji/openwrt-passwall/trunk/xray package/lean/xray
 svn co https://github.com/garypang13/openwrt-packages/trunk/smartdns-le package/smartdns-le
-git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
-svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
+#git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/brook package/brook
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/chinadns-ng package/chinadns-ng
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-go package/trojan-go
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/trojan-plus package/trojan-plus
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/ssocks package/ssocks
+#svn co https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
 #git clone https://github.com/xiaorouji/openwrt-passwall.git package/openwrt-passwall
-git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
+#git clone https://github.com/Lienol/openwrt-package.git package/openwrt-package
 #git clone https://github.com/8688Add/luci-app-vssr-plus.git package/luci-app-vssr-plus
 #git clone https://github.com/8688Add/luci-app-koolproxyR.git package/luci-app-koolproxyR
-git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
+#git clone https://github.com/vernesong/OpenClash.git package/luci-app-openclash
 #git clone https://github.com/frainzy1477/luci-app-clash.git package/luci-app-clash
 svn co https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom/trunk/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
 #git clone https://github.com/ElonH/Rclone-OpenWrt.git package/luci-app-rclone
 #git clone https://github.com/8688Add/luci-theme-opentomato.git package/luci-theme-opentomato
-rm -rf package/lean/luci-theme-argon
-git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
-git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
+#rm -rf package/lean/luci-theme-argon
+#git clone -b 18.06 https://github.com/jerrykuku/luci-theme-argon.git package/lean/luci-theme-argon
+#git clone https://github.com/jerrykuku/luci-app-argon-config.git package/luci-app-argon-config
 #git clone -b 18.06 https://github.com/garypang13/luci-theme-edge package/luci-theme-edge
 #rm -rf package/applications/luci-app-https-dns-proxy
 #git clone https://github.com/8688Add/https-dns-proxy.git package/applications/luci-app-https-dns-proxy-whisky
